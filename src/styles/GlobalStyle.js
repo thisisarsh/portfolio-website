@@ -179,6 +179,14 @@ const GlobalStyle = createGlobalStyle`
     font-size: clamp(40px, 8vw, 60px);
   }
 
+  .colored-heading {
+    font-size: 60px;
+    background: linear-gradient(to right bottom, rgb(209, 107, 165), rgb(199, 119, 185), rgb(186, 131, 202), rgb(170, 143, 216), rgb(154, 154, 225), rgb(138, 167, 236), rgb(121, 179, 244), rgb(105, 191, 248), rgb(82, 207, 254), rgb(65, 223, 255), rgb(70, 238, 250), rgb(95, 251, 241)) text;
+    -webkit-text-fill-color: transparent;
+    padding-top: 8px;
+  }
+
+
   .numbered-heading {
     display: flex;
     align-items: center;
